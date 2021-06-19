@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffcc99;
+    font-family: Aquire;
+    ul li{
+        list-style: none;
+    }
+    a{
+        text-decoration:none;
+        color: #ffcc99;
+    }
+}
+
+
+
+
+// CONTAINER
+.container{
+    width: 100%;
+    height: 100vh;
+      position: relative;
+      overflow: hidden;
+
+    //   LOADER START
+    .loader{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        color: rgb(39, 38, 38);
+        h1{
+            font-size: 250px;
+            font-family: Cosi Azure;
+            position: absolute;
+            top: -50px;
+            left: -500px;
+        }
+        h2{
+            font-size: 250px;
+            font-family: Cosi Azure;
+            position: absolute;
+            bottom: -70px;
+            right: -130px;
+        }
+    }
+    // LOADER FINISH
+    // text code
+    img{
+        width: 200px;
+    }
+
+    // NAVBAR START
+        nav{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            padding: 20px 0px;
+            // logo
+            .logo{
+                padding:0px 25px;
+                span{
+                    display: inline-block;
+                    font-size: 45px;
+                    font-family: Infected;
+                    text-shadow: 2px 2px 3px rgba(0,0,0,0.4),
+                    2px 2px 3px rgba(0,0,0,0.4),
+                    2px 2px 4px rgba(0,0,0,0.4),
+                    2px 2px 5px rgba(0,0,0,0.4),
+                    2px 2px 5px rgba(0,0,0,0.6);
+                }
+            }
+
+            // menuu
+            .menu {
+            ul li{
+                display: inline-block;
+                a{
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    text-shadow: 2px 2px 3px rgba(0,0,0,0.4),
+                    2px 2px 3px rgba(0,0,0,0.4),
+                    2px 2px 4px rgba(0,0,0,0.4),
+                    2px 2px 5px rgba(0,0,0,0.4),
+                    2px 2px 5px rgba(0,0,0,0.6);
+                }
+            }
+
+            }
+        }
+   // NAV FINISH
+
+// WRAPPER START
+.wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    padding-top: 30px;
+    .content{
+        .h1{
+            width: 100%;
+            overflow: hidden;
+            h1{
+                font-size:130px;
+                line-height: 90%;
+                text-shadow: 2px 2px 3px rgba(0,0,0,0.4),
+                2px 2px 3px rgba(0,0,0,0.4),
+                2px 2px 4px rgba(0,0,0,0.4),
+                2px 2px 5px rgba(0,0,0,0.4),
+                2px 2px 5px rgba(0,0,0,0.4),
+                2px 2px 5px rgba(0,0,0,0.4),
+                2px 2px 5px rgba(0,0,0,0.6),
+                2px 2px 5px rgba(0,0,0,0.6),
+                2px 2px 5px rgba(0,0,0,0.6),
+                2px 2px 5px rgba(0,0,0,0.6),
+                2px 2px 5px rgba(0,0,0,0.6),
+                2px 2px 5px rgba(0,0,0,0.6),
+                2px 2px 3px rgba(0,0,0,0.6);
+            }
+        }
+    
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 17px;
+            line-height: 109%;
+            width: 70%;
+            padding-top: 20px;
+        }
+        a{
+            display: inline-block;
+            border: 3px solid #fff;
+            border-radius: 19px;
+            padding: 7px 20px;
+            font-size: 19px;
+            margin: 30px 0px;
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.4),
+            2px 2px 3px rgba(0,0,0,0.4),
+            2px 2px 4px rgba(0,0,0,0.4),
+            2px 2px 5px rgba(0,0,0,0.4),
+            2px 2px 5px rgba(0,0,0,0.6);
+            transition: .5s;
+            &:hover{
+                background: #ffcc99;
+                border: 3px solid #ffcc99;
+                color: rgb(37, 36, 36);
+                text-shadow: none;
+             
+            }
+        }
+        .social{
+            ul li{
+                display: inline-block;
+                a{
+                 padding: 0px 10px;
+                 border-radius: 0px;
+                 border:none;
+                 border-right: 3px solid #fff;
+                 text-shadow: 2px 2px 3px rgba(0,0,0,0.4),
+                 2px 2px 3px rgba(0,0,0,0.4),
+                 2px 2px 4px rgba(0,0,0,0.4),
+                 2px 2px 5px rgba(0,0,0,0.4),
+                 2px 2px 5px rgba(0,0,0,0.6);
+                }
+             
+            }
+        }
+     
+    }
+
+    // IMG SECTION
+    .img{
+            width: 100%;
+            position: relative;
+            margin-left: 35px;
+        .subimg{
+            width: 86%;
+            height: 360px;
+            background:#fff;
+            position: absolute;
+            margin: 10px;
+            box-shadow: 0px 0px 15px #000,
+                       0px 0px 15px #000;
+                       overflow: hidden;
+           
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            &.one .bg{
+                width: 100%;
+                height: 100%;
+                background: rgb(37, 37, 37);
+                position: absolute;
+                z-index: 9;
+                top: 0;
+            }
+            &.two{
+                width: 64%;
+                height: 250px;
+                top: 120px;
+                position: absolute;
+                left: -50px;
+                .bg2{
+                    width: 100%;
+                    height: 100%;
+                    background: rgb(37, 37, 37);
+                    position: absolute;
+                    z-index: 9;
+                    top: 0;
+                }
+            }
+            &.three{
+                width: 40%;
+                height: 170px;
+                bottom: 50px;
+                position: absolute;
+                right: 130px;
+                .bg3{
+                    width: 100%;
+                    height: 100%;
+                    background: rgb(37, 37, 37);
+                    position: absolute;
+                    z-index: 9;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
+// WRAPPER FINISH
+
+
+}

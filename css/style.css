@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffcc99;
+  font-family: Aquire;
+}
+
+body ul li {
+  list-style: none;
+}
+
+body a {
+  text-decoration: none;
+  color: #ffcc99;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .loader {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  color: #272626;
+}
+
+.container .loader h1 {
+  font-size: 250px;
+  font-family: Cosi Azure;
+  position: absolute;
+  top: -50px;
+  left: -500px;
+}
+
+.container .loader h2 {
+  font-size: 250px;
+  font-family: Cosi Azure;
+  position: absolute;
+  bottom: -70px;
+  right: -130px;
+}
+
+.container img {
+  width: 200px;
+}
+
+.container nav {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  padding: 20px 0px;
+}
+
+.container nav .logo {
+  padding: 0px 25px;
+}
+
+.container nav .logo span {
+  display: inline-block;
+  font-size: 45px;
+  font-family: Infected;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4), 2px 2px 3px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.container nav .menu ul li {
+  display: inline-block;
+}
+
+.container nav .menu ul li a {
+  padding: 10px 20px;
+  font-size: 20px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4), 2px 2px 3px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.container .wrapper {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.container .wrapper .content .h1 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container .wrapper .content .h1 h1 {
+  font-size: 130px;
+  line-height: 90%;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4), 2px 2px 3px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.6), 2px 2px 5px rgba(0, 0, 0, 0.6), 2px 2px 5px rgba(0, 0, 0, 0.6), 2px 2px 5px rgba(0, 0, 0, 0.6), 2px 2px 5px rgba(0, 0, 0, 0.6), 2px 2px 5px rgba(0, 0, 0, 0.6), 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.container .wrapper .content p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 109%;
+  width: 70%;
+  padding-top: 20px;
+}
+
+.container .wrapper .content a {
+  display: inline-block;
+  border: 3px solid #fff;
+  border-radius: 19px;
+  padding: 7px 20px;
+  font-size: 19px;
+  margin: 30px 0px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4), 2px 2px 3px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.6);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container .wrapper .content a:hover {
+  background: #ffcc99;
+  border: 3px solid #ffcc99;
+  color: #252424;
+  text-shadow: none;
+}
+
+.container .wrapper .content .social ul li {
+  display: inline-block;
+}
+
+.container .wrapper .content .social ul li a {
+  padding: 0px 10px;
+  border-radius: 0px;
+  border: none;
+  border-right: 3px solid #fff;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4), 2px 2px 3px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.container .wrapper .img {
+  width: 100%;
+  position: relative;
+  margin-left: 35px;
+}
+
+.container .wrapper .img .subimg {
+  width: 86%;
+  height: 360px;
+  background: #fff;
+  position: absolute;
+  margin: 10px;
+  -webkit-box-shadow: 0px 0px 15px #000,
+ 0px 0px 15px #000;
+          box-shadow: 0px 0px 15px #000,
+ 0px 0px 15px #000;
+  overflow: hidden;
+}
+
+.container .wrapper .img .subimg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .wrapper .img .subimg.one .bg {
+  width: 100%;
+  height: 100%;
+  background: #252525;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+}
+
+.container .wrapper .img .subimg.two {
+  width: 64%;
+  height: 250px;
+  top: 120px;
+  position: absolute;
+  left: -50px;
+}
+
+.container .wrapper .img .subimg.two .bg2 {
+  width: 100%;
+  height: 100%;
+  background: #252525;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+}
+
+.container .wrapper .img .subimg.three {
+  width: 40%;
+  height: 170px;
+  bottom: 50px;
+  position: absolute;
+  right: 130px;
+}
+
+.container .wrapper .img .subimg.three .bg3 {
+  width: 100%;
+  height: 100%;
+  background: #252525;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+}
+/*# sourceMappingURL=style.css.map */
